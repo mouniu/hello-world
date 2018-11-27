@@ -1,1 +1,20 @@
-学习git中....
+首先创建Git仓库 （目标文件夹下）
+git init
+
+git remote 查看本文件夹有多少个仓库！
+
+远程github仓库如果已经新建过得话可以拉去到本地
+
+git remote add  你的仓库名字 git@github.com:你的远程仓库用户名/你的仓库名字.git
+
+添加好本地的存储仓库之后 
+使用 
+git pull 你的仓库名字 master  拉去master的分支文件
+
+然后 你可以在目标文件夹下  新建你的任何东西，建好之后 可以使用
+
+git add 你的文件   进行添加到本地仓库
+
+git commit -m "备注"  进行提交
+
+
