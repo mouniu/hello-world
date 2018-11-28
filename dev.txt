@@ -1,0 +1,9 @@
+使用git checkout -b dev 创建 dev分支
+-b参数表示创建并切换相当于
+
+git branch dev
+git checkout dev
+
+现在我们可以使用git branch查看我们本地仓库所有的分支！
+
+现在我们所做的修改都会在dev分支上进行！
