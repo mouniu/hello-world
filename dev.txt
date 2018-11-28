@@ -10,3 +10,10 @@ git checkout dev
 
 git diff 比较修改内容   工作区与版本库的不同（修改的文件没有进行 添加到暂存区）
 git diff --cached  比较的是暂存区跟版本库的不同！
+
+
+我们切换到master分支上，然后使用 git merge dev 将分支dev 的内容进行合并到当前分支(master分支)上!
+合并提示信息中 会有 Fast-forward 
+注意到上面的Fast-forward信息，Git告诉我们，这次合并是“快进模式”，也就是直接把master指向dev的当前提交，所以合并速度非常快。
+
+合并完成后我们可以使用 git branch -d dev 来删除 dev分支了！
