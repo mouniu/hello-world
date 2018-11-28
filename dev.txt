@@ -7,3 +7,5 @@ git checkout dev
 现在我们可以使用git branch查看我们本地仓库所有的分支！
 
 现在我们所做的修改都会在dev分支上进行！
+
+git diff 比较修改内容
