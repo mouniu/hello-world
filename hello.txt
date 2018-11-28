@@ -1,1 +1,7 @@
-hello
+我现在在分支dev里面
+我可以使用 git stash进行保存现场，
+然后使用   git stash list进行查看现场
+我们可以使用 git stash apply 进行恢复，但是恢复之后stash内容并不会删除，需要手动 git stash drop 删除
+也可以是直接 git stash pop 进行恢复的同事进行删除
+你可以多次stash，恢复的时候，先用git stash list查看，然后恢复指定的stash，用命令：
+git stash apply stash@{0}
