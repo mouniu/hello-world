@@ -17,3 +17,5 @@ git diff --cached  比较的是暂存区跟版本库的不同！
 注意到上面的Fast-forward信息，Git告诉我们，这次合并是“快进模式”，也就是直接把master指向dev的当前提交，所以合并速度非常快。
 
 合并完成后我们可以使用 git branch -d dev 来删除 dev分支了！
+
+我的masger没有提醒我比远程的分支超前一个提交！
